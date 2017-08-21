@@ -1,0 +1,13 @@
+﻿<div class="row">
+    <div class="col-xs-12 col-sm-7">
+        <about [text]="resume.header.aboutMe"></about>
+        <experience [experiences]="resume.experiences"></experience>
+        <education [educations]="resume.educations"></education>
+    </div>
+    <div class="col-xs-12 col-sm-5">
+        <contact [contact]="resume.contact"></contact>
+        <skill [skills]="resume.skills"></skill>
+        <language [languages]="resume.languages"></language>
+        <tags [tags]="resume.tags"></tags>
+    </div>
+</div>

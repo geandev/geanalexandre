@@ -1,0 +1,10 @@
+<div class="box">
+    <h2>Languages</h2>
+    <div id="language-skills">
+        <div *ngFor="let language of languages" class="skill">{{language.name}}
+            <div class="icons pull-right">
+                <div style="height:14px;" [style.width.%]="language.percent" class="icons-red"></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="box">
+    <h2>Education</h2>
+    <ul id="education" class="clearfix">
+<li *ngFor="let education of educations">
+            <div class="year pull-left">{{education.year}}</div>
+            <div class="description pull-right">
+                <h3>{{education.place}}</h3>
+                <p>{{education.resume}}</p>
+            </div>
+        </li>
+    </ul>
+</div>

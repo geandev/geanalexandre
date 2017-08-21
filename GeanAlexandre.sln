@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9120565-1E0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeanAlexandre.Api", "src\GeanAlexandre.Api\GeanAlexandre.Api.csproj", "{F7FFC9A5-FAB0-4B78-AE12-E62412E4E36D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeanAlexandre.Context", "src\GeanAlexandre.Context\GeanAlexandre.Context.csproj", "{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{F7FFC9A5-FAB0-4B78-AE12-E62412E4E36D}.Release|x64.Build.0 = Release|x64
 		{F7FFC9A5-FAB0-4B78-AE12-E62412E4E36D}.Release|x86.ActiveCfg = Release|x86
 		{F7FFC9A5-FAB0-4B78-AE12-E62412E4E36D}.Release|x86.Build.0 = Release|x86
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Debug|x64.ActiveCfg = Debug|x64
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Debug|x64.Build.0 = Debug|x64
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Debug|x86.ActiveCfg = Debug|x86
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Debug|x86.Build.0 = Debug|x86
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Release|x64.ActiveCfg = Release|x64
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Release|x64.Build.0 = Release|x64
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Release|x86.ActiveCfg = Release|x86
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F7FFC9A5-FAB0-4B78-AE12-E62412E4E36D} = {F9120565-1E09-47AA-A376-40EB21A7BCC4}
+		{3E9C6746-86AB-4AD8-B411-B6BBE9BF5730} = {F9120565-1E09-47AA-A376-40EB21A7BCC4}
 	EndGlobalSection
 EndGlobal

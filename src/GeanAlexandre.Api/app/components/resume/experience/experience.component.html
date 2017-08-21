@@ -1,0 +1,13 @@
+<div class="box">
+    <h2>Experiences</h2>
+    <div class="job clearfix" *ngFor="let experience of experiences">
+        <div class="col-xs-3">
+            <div class="where">{{experience.place}}</div>
+            <div class="year">{{experience.beginYear}} - {{experience.endYear}}</div>
+        </div>
+        <div class="col-xs-9">
+            <div class="profession">{{experience.profession}}</div>
+            <div class="description">{{experience.resume}}<div>
+        </div>
+    </div>
+</div>
