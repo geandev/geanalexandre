@@ -8,6 +8,7 @@ const filesToCache = [
     "/img/line.png",
     "/img/star-grey.png",
     "/img/star-red.png",
+    "/img/avatar.jpeg",
     "/css/styles.css",
     "/polyfills.bundle.js",
     "/vendor.bundle.js",
